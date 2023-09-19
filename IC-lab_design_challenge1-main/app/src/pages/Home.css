@@ -1,0 +1,17 @@
+/* Home.css */
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    background-color: #f0f0f0; /* Grey highlight color, adjust as needed */
+    transform: translateY(-5px); /* Bounce effect on hover */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  }
+  
+  .card img.hover-bounce:hover {
+    transform: scale(1.05); /* Bigger image on hover */
+  }
+  
